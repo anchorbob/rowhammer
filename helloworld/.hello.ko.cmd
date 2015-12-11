@@ -1,0 +1,1 @@
+cmd_/root/yilei/helloworld/hello.ko := ld -EL -r  -T /usr/src/linux-headers-3.4.108-bananian/scripts/module-common.lds --build-id  -o /root/yilei/helloworld/hello.ko /root/yilei/helloworld/hello.o /root/yilei/helloworld/hello.mod.o
